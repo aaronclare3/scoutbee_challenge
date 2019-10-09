@@ -78,7 +78,7 @@ export class Dishes extends Component {
                 <th>ID</th>
                 <th><div onClick={() => this.sortDish()}>Dish</div></th>
                 <th><div onClick={() => this.sortPrice()}>Price</div></th>
-                <th></th>
+                {/* <th></th> */}
               </tr>
             </thead>
             <tbody>
@@ -88,7 +88,7 @@ export class Dishes extends Component {
                     <td>{dish.id}</td>
                     <td>{dish.dish}</td>
                     <td>{dish.price}</td>
-                    <td><button onClick={this.props.deleteDish.bind(this, dish.id)} className="btn btn-danger btn-sm">Delete</button></td>
+                    {/* <td><button onClick={this.props.deleteDish.bind(this, dish.id)} className="btn btn-danger btn-sm">Delete</button></td> */}
                   </tr>
                 ))
               }

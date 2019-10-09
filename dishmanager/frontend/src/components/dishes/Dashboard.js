@@ -5,7 +5,7 @@ import Dishes from './Dishes';
 export default function Dashboard() {
   return (
     <div>
-        <Form />
+        {/* <Form /> */}
         <Dishes />
     </div>
   )
