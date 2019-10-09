@@ -7,8 +7,8 @@ TO RUN:
 3. CD TO dishmanager (WHERE THE MANAGE.PY FILE IS LOCATED)
 4. RUN "npm install"
 5. RUN "npm run dev" to run react files
-6. OPEN ANOTHER TERMINAL AT THE MANAGE.PY LEVEL AND RUN "pip install django djangorestframework"
-7. RUN "python manage.py migrate"
+6. OPEN ANOTHER TERMINAL AND AT THE ROOT LEVEL RUN "pipenv shell" again to activate environment in new terminal 
+7. THEN IN DISHMANAGER (MANAGE.PY LEVEL) RUN "python manage.py migrate"
 8. RUN "python manage.py runserver"
 
 
